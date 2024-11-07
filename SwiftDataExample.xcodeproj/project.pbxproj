@@ -13,6 +13,8 @@
 		F291557B2CDC0375002B8534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F291557A2CDC0375002B8534 /* Preview Assets.xcassets */; };
 		F29155822CDC03B4002B8534 /* DestinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29155812CDC03B4002B8534 /* DestinationModel.swift */; };
 		F29155892CDC9C03002B8534 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29155882CDC9C02002B8534 /* EditDestinationView.swift */; };
+		F291558B2CDCB35E002B8534 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F291558A2CDCB35E002B8534 /* DestinationListingView.swift */; };
+		F291558D2CDCBCD2002B8534 /* SightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F291558C2CDCBCD2002B8534 /* SightModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F291557A2CDC0375002B8534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F29155812CDC03B4002B8534 /* DestinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationModel.swift; sourceTree = "<group>"; };
 		F29155882CDC9C02002B8534 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
+		F291558A2CDCB35E002B8534 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		F291558C2CDCBCD2002B8534 /* SightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 				F29155732CDC0373002B8534 /* SwiftDataExampleApp.swift */,
 				F29155752CDC0373002B8534 /* ContentView.swift */,
 				F29155812CDC03B4002B8534 /* DestinationModel.swift */,
+				F291558C2CDCBCD2002B8534 /* SightModel.swift */,
 				F29155882CDC9C02002B8534 /* EditDestinationView.swift */,
+				F291558A2CDCB35E002B8534 /* DestinationListingView.swift */,
 				F29155772CDC0375002B8534 /* Assets.xcassets */,
 				F29155792CDC0375002B8534 /* Preview Content */,
 			);
@@ -147,6 +153,8 @@
 				F29155742CDC0373002B8534 /* SwiftDataExampleApp.swift in Sources */,
 				F29155822CDC03B4002B8534 /* DestinationModel.swift in Sources */,
 				F29155892CDC9C03002B8534 /* EditDestinationView.swift in Sources */,
+				F291558B2CDCB35E002B8534 /* DestinationListingView.swift in Sources */,
+				F291558D2CDCBCD2002B8534 /* SightModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
