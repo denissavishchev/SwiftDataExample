@@ -11,7 +11,8 @@
 		F29155762CDC0373002B8534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29155752CDC0373002B8534 /* ContentView.swift */; };
 		F29155782CDC0375002B8534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29155772CDC0375002B8534 /* Assets.xcassets */; };
 		F291557B2CDC0375002B8534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F291557A2CDC0375002B8534 /* Preview Assets.xcassets */; };
-		F29155822CDC03B4002B8534 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29155812CDC03B4002B8534 /* Destination.swift */; };
+		F29155822CDC03B4002B8534 /* DestinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29155812CDC03B4002B8534 /* DestinationModel.swift */; };
+		F29155892CDC9C03002B8534 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29155882CDC9C02002B8534 /* EditDestinationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +21,8 @@
 		F29155752CDC0373002B8534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F29155772CDC0375002B8534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F291557A2CDC0375002B8534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F29155812CDC03B4002B8534 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
-		F29155842CDC0B2F002B8534 /* SwiftData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftData.framework; path = System/Library/Frameworks/SwiftData.framework; sourceTree = SDKROOT; };
-		F29155862CDC0B7E002B8534 /* libswiftDataDetection.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftDataDetection.tbd; path = usr/lib/swift/libswiftDataDetection.tbd; sourceTree = SDKROOT; };
+		F29155812CDC03B4002B8534 /* DestinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationModel.swift; sourceTree = "<group>"; };
+		F29155882CDC9C02002B8534 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 			children = (
 				F29155722CDC0373002B8534 /* SwiftDataExample */,
 				F29155712CDC0373002B8534 /* Products */,
-				F29155832CDC0B2F002B8534 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +57,8 @@
 			children = (
 				F29155732CDC0373002B8534 /* SwiftDataExampleApp.swift */,
 				F29155752CDC0373002B8534 /* ContentView.swift */,
-				F29155812CDC03B4002B8534 /* Destination.swift */,
+				F29155812CDC03B4002B8534 /* DestinationModel.swift */,
+				F29155882CDC9C02002B8534 /* EditDestinationView.swift */,
 				F29155772CDC0375002B8534 /* Assets.xcassets */,
 				F29155792CDC0375002B8534 /* Preview Content */,
 			);
@@ -71,15 +71,6 @@
 				F291557A2CDC0375002B8534 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F29155832CDC0B2F002B8534 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F29155862CDC0B7E002B8534 /* libswiftDataDetection.tbd */,
-				F29155842CDC0B2F002B8534 /* SwiftData.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +145,8 @@
 			files = (
 				F29155762CDC0373002B8534 /* ContentView.swift in Sources */,
 				F29155742CDC0373002B8534 /* SwiftDataExampleApp.swift in Sources */,
-				F29155822CDC03B4002B8534 /* Destination.swift in Sources */,
+				F29155822CDC03B4002B8534 /* DestinationModel.swift in Sources */,
+				F29155892CDC9C03002B8534 /* EditDestinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
